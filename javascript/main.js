@@ -33,8 +33,16 @@ document.querySelector("#app").innerHTML = `
             createGame('brazil', '16:00', 'serbia')
         )}
         ${createCard('28/11', 'segunda', 
-            createGame('brazil', '13:00', 'switzerland'))}
+            createGame('cameroon', '07:00', 'serbia') + 
+            createGame('south_korea', '10:00', 'ghana') + 
+            createGame('brazil', '13:00', 'switzerland') + 
+            createGame('portugal', '16:00', 'uruguay')
+        )}
         ${createCard('02/12', 'sexta', 
-            createGame('cameroon', '16:00', 'brazil'))}
+            createGame('south_korea', '12:00', 'portugal') + 
+            createGame('ghana', '12:00', 'uruguay') + 
+            createGame('serbia', '16:00', 'switzerland') + 
+            createGame('cameroon', '16:00', 'brazil')
+        )}
     </main>
 `
