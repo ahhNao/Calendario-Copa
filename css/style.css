@@ -32,11 +32,11 @@ header {
     gap: 32px;
 }
 
-/* @media screen and (min-width:1120px) {
+@media screen and (min-width:1120px) {
     #cards {
         flex-direction: row;
     }
-} */
+}
 
 .card {
     background: #1D1C19;
