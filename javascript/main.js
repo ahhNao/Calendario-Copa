@@ -26,6 +26,18 @@ document.querySelector("#app").innerHTML = `
         <img src="assets/logo.svg">
     </header>
     <main id="cards">
+        ${createCard('20/11', 'domingo', 
+            createGame('qatar', '0 x 2', 'ecuador')
+        )}
+        ${createCard('21/11', 'segunda', 
+            createGame('qatar', '0 x 2', 'ecuador')
+        )}
+        ${createCard('22/11', 'terça', 
+            createGame('qatar', '0 x 2', 'ecuador')
+        )}
+        ${createCard('23/11', 'domingo', 
+            createGame('qatar', '0 x 2', 'ecuador')
+        )}
         ${createCard('24/11', 'quinta', 
             createGame('switzerland', '07:00', 'cameroon') + 
             createGame('south_korea', '10:00', 'uruguay') + 
